@@ -1,0 +1,138 @@
+/* styles for the site */
+body {
+  font-family: sans-serif;
+  background-color: rgb(13, 43, 0);
+  color: #5f5f5f;
+  font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font: bold 24px Arial, Helvetica, sans-serif;
+}
+
+p {
+  font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+/* header styles */
+header {
+  color: white;
+}
+
+header h1 {
+  font-size: 4em;
+}
+
+header h1 .first-word {
+  color: rgb(231, 131, 0);
+}
+
+header .title .slogan {
+  font-size: 1.2em;
+}
+header ul li {
+  list-style: none;
+  background-color: rgb(109, 180, 34);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li:hover {
+  background-color: rgb(231, 131, 0);
+}
+
+header ul li.active {
+  background-color: rgb(231, 131, 0);
+}
+
+/* main style */
+main {
+  background-color: white;
+}
+
+main .section-1 .section-1-1 article a {
+  color: rgb(109, 180, 34);
+}
+
+main .section-1 .section-1-1 article .orange-link {
+  color: rgb(231, 131, 0);
+}
+
+main .section-1 aside ul li a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 1.1em;
+}
+main h2 {
+  color: rgb(109, 180, 34);
+}
+main .section-1 .section-1-1 article img {
+  border: 5px solid rgb(241, 241, 241);
+  border-radius: 5px;
+}
+main .section-1 aside article ul li {
+  list-style: none;
+}
+
+.section-2 {
+  background-color: rgb(13, 43, 0);
+  font-size: 0.9em;
+  color: white;
+}
+
+.section-2 .section-2-2 .about a {
+  color: rgb(109, 180, 34);
+}
+
+.section-2 .section-2-2 .contact ul {
+  list-style: none;
+}
+
+.section-2 .section-2-2 .contact ul li a {
+  color: rgb(109, 180, 34);
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .content p a {
+  color: rgb(109, 190, 34);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li .contact {
+  color: rgb(109, 180, 34);
+}
+
+footer ul .contact {
+  color: rgb(109, 180, 34);
+}
+
+/* style for the form in the contact me page */
+main .section-1 form button {
+  padding: 10px 20px;
+  background-color: rgb(109, 180, 34);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3;
+}
+
+main .section-1 form button:hover {
+  background-color: rgb(98, 159, 34);
+  cursor: pointer;
+}

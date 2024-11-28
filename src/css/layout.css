@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header layout */
+header {
+  padding: 10px;
+}
+
+header h1 {
+  padding-top: 30px;
+}
+
+header .title {
+  display: inline-block;
+  position: relative;
+}
+
+header .title p {
+  position: absolute;
+  right: 0;
+}
+
+header ul {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+header ul li {
+  padding: 5px 3px;
+}
+
+header ul li a {
+  padding: 15px 15px;
+}
+
+/* main layout / section 1*/
+
+main .section-1 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+main .section-1 .section-1-1 {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main .section-1 .section-1-1 article {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+main .section-1 .section-1-1 article h3 {
+  padding: 20px 0px;
+}
+
+main .section-1 .section-1-1 article img {
+  width: 100%;
+  height: 150px;
+}
+
+main .section-1 .section-1-1 article p {
+  padding-top: 10px;
+}
+
+main .section-1 .section-1-1 article .comments {
+  padding-top: 0px;
+}
+
+main .section-1 aside {
+  margin-right: 10px;
+}
+
+main .section-1 aside ul li {
+  padding: 5px;
+}
+
+main .section-1 aside article ul {
+  padding-top: 10px;
+}
+
+main .section-1 aside .article-2 {
+  margin-top: 30px;
+}
+
+main .section-1 aside .article-2 h3 {
+  margin-top: 20px;
+}
+
+main .section-1 aside .article-2 p {
+  margin-top: 5px;
+}
+
+/* main styles section 2 */
+
+.section-2 {
+  padding: 20px;
+}
+
+.section-2 .section-2-2 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-2 .section-2-2 article {
+  flex: 1;
+  padding: 10px;
+}
+
+.section-2 .section-2-2 article h2 {
+  margin-bottom: 20px;
+}
+
+.section-2 .section-2-2 .image-gallery .image-fig {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.section-2 .section-2-2 .about img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.section-2 .section-2-2 .image-gallery .image-fig img {
+  width: 75px;
+  height: 75px;
+}
+
+.section-2 .section-2-2 .contact ul {
+  margin-top: 20px;
+}
+
+footer {
+  padding: 30px;
+}
+
+footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 30px;
+}
+
+/* utility class */
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+/* style for the form in the contact me page */
+
+main .section-1 h2 {
+  margin-bottom: 10px;
+}
+
+main .section-1 .contact-section {
+  padding-right: 20px;
+}
+
+main .section-1-1 {
+  padding-right: 20px;
+}
+main .section-1 p {
+  margin-bottom: 20px;
+}
+
+main .section-1 form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+main .section-1 form input,
+textarea {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 5px;
+}
